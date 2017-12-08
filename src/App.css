@@ -1,0 +1,31 @@
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.word {
+  border: 2px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2em;
+  text-align: center;
+  width: 50%;
+}
+
+.word h1 {
+  font-size: 3rem;
+}
+
+.word img {
+  margin: 0 auto;
+  max-height: 200px;
+  max-width: 75%;
+}
